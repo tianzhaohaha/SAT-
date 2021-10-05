@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="heng"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/SAT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/SAT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heng">
+				<Option output="D:/SAT/cmake-build-debug/heng.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 heng"/>
+					<CompileFile command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heng/fast">
+				<Option output="D:/SAT/cmake-build-debug/heng.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 heng/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/SAT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\SAT\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/SAT/Check.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/CopyValue.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/DFS.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/Delete.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/FILEREAD.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/GenerateByDigMethod.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/Judge.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/LasVegas.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/MATH.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/New.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/PlayPuzzle.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/Print.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/PuzzleInnital.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/ReCopyValue.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/Rule.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/SAT数独求解.sln">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/SAT数独求解.vcxproj">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/SAT数独求解.vcxproj.filters">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/SAT数独求解.vcxproj.user">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/Select.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/Solve.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/Stack.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/main.cpp">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/pre-SAT.h">
+			<Option target="heng"/>
+		</Unit>
+		<Unit filename="D:/SAT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
